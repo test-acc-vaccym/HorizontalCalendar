@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:id="@+id/itemDay">
+
+
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="L"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txtNumDay"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="16"
+        android:background="@drawable/circle_number_day"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/circle_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center">
+    <View
+        android:id="@+id/viewSelected"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/circle_selected_day"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
