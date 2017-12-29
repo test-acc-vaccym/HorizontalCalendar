@@ -1,4 +1,4 @@
-package com.rudo.calendarhorizontalview
+package com.rudo.horizontalcalendar
 
 import org.junit.Test
 

@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jfrog.bintray'
 
 ext.anko_version='0.10.3'
 
@@ -13,7 +14,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
-        versionName "0.3.0"
+        versionName "0.3.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -41,3 +42,33 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+ext {
+    bintrayRepo = 'libraries'
+    bintrayName = 'horizontalcalendar'
+
+    publishedGroupId = 'com.rudo'
+    libraryName = 'libraries'
+    artifact = 'horizontalcalendar'
+
+    libraryDescription = ''
+
+    siteUrl = 'https://github.com/RudoApps/HorizontalCalendar'
+    gitUrl = 'https://github.com/RudoApps/HorizontalCalendar.git'
+
+    libraryVersion = '0.3.1'
+
+    developerId = 'oscarveratomas'
+    developerName = 'Oscar Vera Tomas'
+    developerEmail = 'oscarveratomas@gmail.com'
+    userOrg = 'Rudo'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
