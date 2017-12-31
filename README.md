@@ -1,4 +1,4 @@
-![header](/readme/headerHC.png)
+![header](/readme/headerReadmeHC.png)
 
 A horizontal calendar scrollable and customizable. Programmed 100% in Kotlin. Calendar available in Spanish and English.
 
