@@ -143,7 +143,7 @@ class HorizontalCalendar(build : Build){
     }
 
 
-    class Build(root : Activity, viewCalendar: Int, style : BasicStyle){
+    class Build(root : Activity, viewCalendar : Int, style : BasicStyle){
 
 
         internal var viewId : Int = viewCalendar

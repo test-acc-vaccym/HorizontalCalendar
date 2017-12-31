@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HorizontalCalendar.iml" filepath="$PROJECT_DIR$/HorizontalCalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HorizontalCalendar.iml" filepath="$PROJECT_DIR$/HorizontalCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/calendarhorizontal/calendarhorizontal.iml" filepath="$PROJECT_DIR$/calendarhorizontal/calendarhorizontal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horizontalcalendar/horizontalcalendar.iml" filepath="$PROJECT_DIR$/horizontalcalendar/horizontalcalendar.iml" />
     </modules>
   </component>
 </project>
