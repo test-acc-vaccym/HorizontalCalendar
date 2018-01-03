@@ -70,7 +70,7 @@ You can customize the default values of the calendar setting this fields in Buil
    ...
 ```
 
-- Extra period. You can select an extra period in the calendar. This period is going to show a different color.
+- Extra period. You can select an extra period in the calendar. This period is going to show in a different color.
 
 ```java
    ...
@@ -80,7 +80,7 @@ You can customize the default values of the calendar setting this fields in Buil
    ...
 ```
 
-- Selected days. You can select calendar days to highlight them with a lower icon. The days do not need to be correlated.
+- Selected days. You can highlight calendar days with a small dot bellow. The days do not need to be correlated.
 
 ```java
   ...
@@ -89,7 +89,7 @@ You can customize the default values of the calendar setting this fields in Buil
   ...
 ```
 
- - Listener. Collect all the clicks of the calendar and the data of the day clicked
+ - Listener. It collects all the clicks and data of the day clicked on the calendar.
  
   Java: 
  ```java 
@@ -125,7 +125,7 @@ We are currently in the process of development. **The current version is in beta
  
 ## License
 ```
-Copyright 2017 Rudo Apps
+Copyright 2018 Rudo Apps
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
